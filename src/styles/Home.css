@@ -1,0 +1,22 @@
+.homeGridBox{
+    display: block;
+    margin-bottom: 0px;
+    height: fit-content !important;
+    padding: 15px 22px !important;
+    font-size: 1rem !important;
+}
+
+.homeCardTitle{
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.homeProfileImg{
+    width: 25%;
+}
+
+.homeProfileContent{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}

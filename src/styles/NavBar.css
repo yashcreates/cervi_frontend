@@ -1,0 +1,31 @@
+/* .appBarWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80px;
+  } */
+  
+  /* .appBar{
+    background-color: transparent;
+    color: black;
+    margin-top: 15px;
+    height: 80px;
+    min-height: 80px;
+    background-color: #f2f6fe;
+    z-index: 1201;
+  
+  } */
+  
+  .scrollShadow{
+    box-shadow: 0 10px 20px -20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appBarSearch{
+    width:40vw;
+    margin-left: 4vw;
+  }
+  
+  .appBarLogo{
+    margin-left: 0px;
+    width: 13vw;
+  }

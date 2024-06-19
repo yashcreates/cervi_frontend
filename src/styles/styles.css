@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+}
+
+.sss {
+    position: sticky;
+    top: 10px;
+    /* Adjust top margin */
+    left: 10px;
+    /* Adjust left margin */
+    right: 10px;
+    /* Adjust right margin */
+    background-color: rgba(194, 186, 186, 0.432);
+    /* Adjust the last value (0.9) for opacity */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 70px 0px 70px;
+
+    margin: 5px 20px 5px 20px;
+    border-radius: 10px;
+}
+
+.profh{
+    background-color: rgba(194, 186, 186, 0.432);
+    color: black;
+}
+.logout{
+    color: red;
+}
+
+.klogo-left img,
+.klogo-right img {
+    width: 80px;
+    /* Adjust as needed */
+    height: 80px;
+    /* Adjust as needed */
+    border-radius: 50%;
+
+}
+
+.kunbold {
+    font-weight: normal;
+}
+
+.kheadline {
+    flex-grow: 1;
+    text-align: center;
+
+
+}
+
+.kheadline h1 {
+    box-sizing: border-box;
+
+
+    margin: 0;
+    font-size: 18px;
+    /* Adjust as needed */
+    color: #333;
+    /* Adjust as needed */
+    /* Transparent background */
+    border-radius: 10px;
+    /* Rounded corners */
+    padding: 25px 10px 25px 10px;
+}
+
+.kcontent {
+
+    padding: 20px;
+}
+
+.kcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.kleft {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.kteachers {
+    margin-top: 1%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 35%;
+    /* Set height to auto */
+    display: flex;
+    gap: 20px;
+
+}
+
+.kbold {
+    font-weight: bold;
+}
+
+.kcard {
+    box-sizing: border-box;
+    width: 30%;
+    /* Set width to 100% */
+    padding: 20px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    /* Add display flex */
+    flex-direction: column;
+    /* Stack children vertically */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+
+.kimage {
+    text-align: center;
+    width: 100%;
+    height: 18rem;
+    /* Adjust the height as needed */
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.kimage img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.kinfo {
+
+    height: 30%;
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.namek {
+    word-wrap: break-word;
+    box-sizing: border-box;
+    height: 40%;
+    font-size: 91%;
+    margin: 0%;
+    padding: 0;
+}
+
+.pk {
+
+    box-sizing: border-box;
+    font-size: 89%;
+    margin-top: 1px;
+    text-align: center;
+    margin: 0%;
+    height: 60%;
+    padding: 5%;
+}
+
+
+.kcard:hover .info {
+    font-size: 16px;
+    /* Increase font size on hover */
+}
+
+.kproject-info {
+
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.kright {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 50%;
+}
+.footer{
+    background-color: rgba(194, 186, 186, 0.868);
+    
+}
+
+.btt{
+    width: 30%;
+    margin: 5%;
+    margin-bottom: 2%;
+}
+#ggg{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dont{
+    margin-left: 3%;
+    width: 6%;
+}

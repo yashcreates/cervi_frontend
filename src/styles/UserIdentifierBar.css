@@ -1,0 +1,7 @@
+.userIdentifierParent{
+    z-index: 800000;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    text-align: center;
+}

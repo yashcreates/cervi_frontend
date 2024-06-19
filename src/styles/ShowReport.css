@@ -1,0 +1,114 @@
+.reportWrapper{
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+.reportHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reportLogo{
+    height: calc(30px + (70 - 30) * ((100vw - 300px) / (1500 - 300)));
+    display: flex;
+}
+
+.reportTitle{
+    display: inline;
+    font-size: calc(15px + (35 - 15) * ((100vw - 300px) / (1500 - 300)));
+    font-weight: 700;
+    float: right;
+    color: blueviolet;
+}
+
+.reportHeaderInfo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px 5px;
+}
+
+.reportHeaderItem div{
+    margin-bottom: 5px;
+}
+
+.cervicalCytologyReport{
+    font-size: calc(17px + (35 - 17) * ((100vw - 300px) / (1500 - 300)));
+    text-align: center;
+    font-weight: 600;
+}
+
+.reportImage{
+    display: block;
+    margin-top: 10px;
+    width: 70%;
+    max-width: 250px;
+    margin-bottom: 30px;
+}
+
+.showReportBottomButtons{
+    margin-top: 10px;
+}
+
+.showReportBottomButtons button{
+    margin-top: 8px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.chatAddMessageDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.chatsList span{
+    margin-bottom: 8px;
+    padding: 5px 10px;
+}
+
+.selfMessage{
+    background-color: rgb(0, 81, 255);
+    display: block;
+    border-radius: 6px;
+    color: white;
+}
+
+.otherMessage{
+    background-color: rgb(190, 190, 190);
+    display: block;
+    border-radius: 6px;
+}
+
+.messageHeading{
+    font-size: 0.8rem;
+    text-transform: capitalize;
+}
+
+.selfMessage .messageHeading{
+    color: rgb(182, 182, 182);
+}
+
+.otherMessage .messageHeading{
+    color: white;
+}
+
+.chatSendMessageButton{
+    height: 50%;
+    margin-left: 20px;
+}
+
+.doctorListElem{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px 5px 15px;
+    border-radius: 10px;
+}
+.doctorListElem:hover{
+    background-color: lightgray;
+}
